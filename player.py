@@ -31,4 +31,3 @@ class Player(Turtle):
     def go_back(self):
         new_up = self.ycor() - MOVE_DISTANCE
         self.goto(self.xcor(), new_up)
-
